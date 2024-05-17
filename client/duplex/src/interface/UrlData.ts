@@ -5,4 +5,4 @@ export interface UrlData {
     clicks: number;
     createdAt: Date;
     updatedAt: Date;
-  }
+}

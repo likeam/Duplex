@@ -28,7 +28,7 @@ const Container: React.FunctionComponent<IContainerProps> = (props) => {
   return (
     <>
       <FormContainer updateReloadState={updateReloadState} />
-      <DataTable updateReloadState={updateReloadState} />
+      <DataTable updateReloadState={updateReloadState} data={data} />
     </>
   );
 };
